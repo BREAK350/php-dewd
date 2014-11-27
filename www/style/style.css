@@ -1,0 +1,54 @@
+body {
+	background-color: silver;
+}
+
+.container {
+	background-color: white;
+}
+
+#header {
+	background-color: #444;
+	color: #FFF;
+}
+
+.row {
+	margin-left: 0px;
+}
+
+.control-label {
+	width: 60px;
+}
+
+.form-horizontal .controls {
+	margin-left: 100px;
+}
+
+input[type="text"] {
+	height: 30px;
+}
+
+.form-horizontal .control-label {
+	width: 90px;
+}
+
+.fraction {
+	float: left;
+}
+
+.fraction .numerator {
+	border-bottom-width: 1px;
+	border-bottom-color: black;
+}
+
+.fraction .denominator {
+	top: -10px;
+}
+
+#solution {
+	background-color: #444;
+	color: #FFF;
+}
+
+.solution {
+	padding-top: 10px;
+}
