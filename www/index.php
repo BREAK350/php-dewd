@@ -146,8 +146,7 @@ if ($show_result) {
 			<div class="span8">
 			<?php if ($show_result) {?>
 			<?php require_once 'create_image.php';?>
-				<img class="img-polaroid alt=" " src="image.png"> <img alt=""
-					src="create_image2.php">
+				<img class="img-polaroid alt=" " src="image.png">
 			<?php }?>
 			</div>
 			<!-- end span8 -->
