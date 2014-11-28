@@ -2,10 +2,10 @@
 require_once 'reader.php';
 require_once 'algorithm.php';
 require_once 'view.php';
-$show_result = isset ( $_GET ['submit'] );
+$show_result = isset ( $_POST ['submit'] );
 
 if ($show_result) {
-	$arr = readFromGET_createArray ();
+	$arr = readFromPOST_createArray ();
 	extract ( $arr );
 	$y = eval_in_func ( $in_func, $in_fi, $in_t0, $in_tn, $in_n );
 	$show_result = ($y !== false);
@@ -39,7 +39,7 @@ if ($show_result) {
 
 			<div class="span5">
 
-				<form class="form-horizontal" action="" name="defd">
+				<form class="form-horizontal" action="" name="defd" method="post">
 
 					<h3>Дані для задачі</h3>
 					<div class="control-group">
