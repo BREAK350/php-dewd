@@ -28,11 +28,11 @@ $maxx = $in_tn;
 $diffx = $maxx - $minx;
 $diffy = $maxy - $miny;
 
+imageFill ( $im, 0, 0, $white );
+
 if ($diffy > 0) {
 	
 	$h = $diffx / ($n - 1);
-	
-	imageFill ( $im, 0, 0, $white );
 	
 	$_x = $minx;
 	$_y = $y [0];
